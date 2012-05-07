@@ -734,6 +734,6 @@ if (MAINTENANCE_ENABLE) {
 	if (isset($_GET['ghj']))
 		$_SESSION['ghj'] = true;
 	if (!isset($_SESSION['ghj']))
-		die('Le site est actuellement en maintenance et sera de nouveau disponible dans quelques minutes.<br />Veuillez nous excuser pour la g�ne occasionn�e.');
+		die('Le site est actuellement en maintenance et sera de nouveau disponible dans quelques minutes.<br />Veuillez nous excuser pour la g&ecircne occasionn&eacute;e.');
 }
 ?>

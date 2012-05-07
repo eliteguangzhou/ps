@@ -388,7 +388,7 @@ var google_conversion_value = 0;
 </div>
 </noscript>
 <?php } ?>
-<img src="http://newsletters.parfumreduc.com/ev/parfumreduc?eventid=650000044&itemcnt=<?php echo $total_products;?>&amount=<?php echo $total_products_price;?>&random=<?php echo uniqid();?>&ecm_order_id=<?php echo $insert_id;?>" width="1" height="1" />
+<img src="http://newsletters.parfumseduction.com/ev/parfumseduction?eventid=650000044&itemcnt=<?php echo $total_products;?>&amount=<?php echo $total_products_price;?>&random=<?php echo uniqid();?>&ecm_order_id=<?php echo $insert_id;?>" width="1" height="1" />
 </body>
 </html>
 <?php require(DIR_WS_INCLUDES . 'application_bottom.php'); ?>

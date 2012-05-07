@@ -27,7 +27,7 @@
 	  
       $this->values = array(
 		1 => 7,
-		
+		2 => 0,		
 	  );
 	  
 	  /*$discounts = $easy_discount->get_all();
