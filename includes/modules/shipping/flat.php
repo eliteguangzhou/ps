@@ -26,7 +26,7 @@
       $this->enabled = ((MODULE_SHIPPING_FLAT_STATUS == 'true') ? true : false);// la valeur de test 'true' ou 'false' est convertie dans application_top depuis 'Oui' ou 'Non' ! laisser le test sur la valeur 'true'
 	  
       $this->values = array(
-		1 => 7,
+		1 => 10,
 		2 => 0,		
 	  );
 	  
