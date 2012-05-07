@@ -65,7 +65,7 @@
   require(DIR_WS_FUNCTIONS . 'database.php');
 
 // make a connection to the database... now
-  tep_db_connect() or die('Connexion impossible � la Base de Donn�es!');
+  tep_db_connect() or die('Connexion impossible &agrave; la Base de Donn&eacute;es!');
 
 // set the application parameters
   $configuration_query = tep_db_query('select configuration_key as cfgKey, configuration_value as cfgValue from ' . TABLE_CONFIGURATION);
