@@ -33,10 +33,10 @@
                         </td>
                         </tr>
                 <?php if ($check_server == 'en') { ?>
-                        <td style="font-size:15px;"><?php echo FOOTER_CERTIFIED; ?></td>
+             <!-- <td style="font-size:15px;"><?php echo FOOTER_CERTIFIED; ?></td>
                         <td><?php echo tep_image(DIR_WS_LANGUAGES.$language.'/images/partners.gif', 'Partners'); ?></td>
                         <td><?php echo tep_image(DIR_WS_LANGUAGES.$language.'/images/bizrate.jpg', 'Bizrate Certified Customers'); ?></td>
-                <?php } ?>
+                -->            <?php } ?>
               <tr style="">
                     <td style="padding-top: 10px; text-align: right;padding-right: 430px; font-size:28px"><?php echo PAYEMENT_100_SECURE; ?>&nbsp;<?php echo tep_image(DIR_WS_LANGUAGES.$language.'/images/cadena.png', 'Partners',17); ?></td>
               </tr>

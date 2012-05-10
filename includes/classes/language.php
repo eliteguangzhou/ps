@@ -63,7 +63,6 @@
                                                              'image' => $languages['image'],
                                                              'directory' => $languages['directory']);
       }
-
       $this->browser_languages = '';
       $this->language = '';
 

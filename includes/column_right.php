@@ -18,7 +18,8 @@
 			
 			
 <!--------promo------->
-
+<?php error_log($language); ?>
+<?php if ($language == 'french') {?>
 
 <tr><td><a href="presentation.php">
  <script src="includes//AC_RunActiveContent.js" type="text/javascript"></script>
@@ -39,6 +40,7 @@
 <tr>
 <td style="padding-bottom: 12px;"></td>
 </tr>
+<?php } ?>
 <!-------promo end-------->
 			
 <?php

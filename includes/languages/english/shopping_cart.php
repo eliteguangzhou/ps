@@ -30,7 +30,7 @@ define('OUT_OF_STOCK_CAN_CHECKOUT', 'Products marked with ' . STOCK_MARK_PRODUCT
 
 define('STR_GIFT', 'Your offered gift');
 define('STR_GIFT_CHOOSE', '<script type="text/javascript">document.write(\'<br /><br />You prefer a different gift?<br /><a href="'.tep_href_link(FILENAME_SHOPPING_CART).'#" onclick="document.getElementById(\\\'popup\\\').style.display = \\\'block\\\'">Click here!</a>\');</script>');
-define('CART_MAX_AMOUNT_REACHED', 'For safety, the maximum amount of an order is limited to 300 €');
+define('CART_MAX_AMOUNT_REACHED', 'For safety, the maximum amount of an order is limited to 300 ï¿½');
 
 define('FREE_SHIPPING_COST', 'Offered');
 define('PROMO_SHIPPING_COST', '
@@ -44,52 +44,12 @@ For the purchase of two fragrances:<br />
 
 define('MIN_PRODUCTS', '<span class="min_products">Please add a product in your shopping cart in order to complete your order.</span>');
 
-define('SPECIAL_PROMO', '<br /><b>Table of current offers:</b><br />
-<table cellpadding="2" cellspacing="0" class="special_promo" style="text-align:center;margin:5px 0;" align="center" border="1">
+define('SPECIAL_PROMO', '<br /><b>Table of current offers: :</b><br />
+<table cellpadding="2" cellspacing="0" class="special_promo" style="text-align:center;margin:5px 0;width:370px;" align="center" border="1">
 <tr class="header" style="font-weight:bold;">
-  <td>Nb products<br />purchased</td><td>Shipping</td><td>Immediate reduction</td>
-</tr><tr>
-  <td>1</td>
-  <td>'.$currencies->currencies[$currency]['symbol_left'].round(14 / $currencies->currencies["EUR"]['value'] * $currencies->currencies[$currency]['value']).$currencies->currencies[$currency]['symbol_right'].'</td>
-  <td>0</td>
-</tr><tr class="second">
-  <td>2</td>
-  <td>'.$currencies->currencies[$currency]['symbol_left'].round(7 / $currencies->currencies["EUR"]['value'] * $currencies->currencies[$currency]['value']).$currencies->currencies[$currency]['symbol_right'].'</td>
-  <td>0</td>
-</tr><tr>
-  <td>3</td>
-  <td>'.$currencies->currencies[$currency]['symbol_left'].round(3 / $currencies->currencies["EUR"]['value'] * $currencies->currencies[$currency]['value']).$currencies->currencies[$currency]['symbol_right'].'</td>
-  <td>0</td>
-</tr><tr class="second">
-  <td>4</td>
-  <td>'.$currencies->currencies[$currency]['symbol_left'].round(3 / $currencies->currencies["EUR"]['value'] * $currencies->currencies[$currency]['value']).$currencies->currencies[$currency]['symbol_right'].'</td>
-  <td>'.$currencies->currencies[$currency]['symbol_left'].round(5 / $currencies->currencies["EUR"]['value'] * $currencies->currencies[$currency]['value']).$currencies->currencies[$currency]['symbol_right'].'</td>
-</tr><tr>
-  <td>5</td>
-  <td>'.$currencies->currencies[$currency]['symbol_left'].round(3 / $currencies->currencies["EUR"]['value'] * $currencies->currencies[$currency]['value']).$currencies->currencies[$currency]['symbol_right'].'</td>
-  <td>'.$currencies->currencies[$currency]['symbol_left'].round(15 / $currencies->currencies["EUR"]['value'] * $currencies->currencies[$currency]['value']).$currencies->currencies[$currency]['symbol_right'].'</td>
-</tr><tr class="second">
-  <td>6</td>
-  <td>Free</td>
-  <td>'.$currencies->currencies[$currency]['symbol_left'].round(22 / $currencies->currencies["EUR"]['value'] * $currencies->currencies[$currency]['value']).$currencies->currencies[$currency]['symbol_right'].'</td>
-</tr><tr>
-  <td>7</td>
-  <td>Free</td>
-  <td>'.$currencies->currencies[$currency]['symbol_left'].round(29 / $currencies->currencies["EUR"]['value'] * $currencies->currencies[$currency]['value']).$currencies->currencies[$currency]['symbol_right'].'</td>
-</tr><tr class="second">
-  <td>8</td>
-  <td>Free</td>
-  <td>'.$currencies->currencies[$currency]['symbol_left'].round(36 / $currencies->currencies["EUR"]['value'] * $currencies->currencies[$currency]['value']).$currencies->currencies[$currency]['symbol_right'].'</td>
-</tr><tr>
-  <td>9</td>
-  <td>Free</td>
-  <td>'.$currencies->currencies[$currency]['symbol_left'].round(43 / $currencies->currencies["EUR"]['value'] * $currencies->currencies[$currency]['value']).$currencies->currencies[$currency]['symbol_right'].'</td>
-</tr><tr class="second">
-  <td>10</td>
-  <td>Free</td>
-  <td>'.$currencies->currencies[$currency]['symbol_left'].round(50 / $currencies->currencies["EUR"]['value'] * $currencies->currencies[$currency]['value']).$currencies->currencies[$currency]['symbol_right'].'</td>
-</tr>
-</table>
+  <td>Nb products
+purchased<br /></td><td>Shipping</td><td>Immediate reduction</td>
+</tr>%s</table>
 ');
 
 define('SPECIAL_PROMO1', 'Buy 2 items and pay only '.$currencies->currencies[$currency]['symbol_left'].round(7 / $currencies->currencies["EUR"]['value'] * $currencies->currencies[$currency]['value']).$currencies->currencies[$currency]['symbol_right'].' shipping.');
