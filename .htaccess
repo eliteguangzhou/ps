@@ -27,6 +27,8 @@ RewriteRule ^index1-([_0-9]+)-([A-Z]+)(.)*$   /index.php?cPath=$1&letter=$2 [L]
 RewriteRule ^index2-([_0-9]+)-([0-9]+)(.)*$   /index.php?cPath=$1&filter_id=$2 [L]
 RewriteRule ^index3-([0-9]+)(.)*$   /index.php?manufacturers_id=$1 [L]
 RewriteRule ^index-([_0-9]+)(.)*$   /index.php?cPath=$1 [L]
+RewriteRule ^index-([a-zA-Z0-9_-]+)*$   /index.php?langugage=$1 [L]
+
 
 RewriteRule ^about$                       /about_us.php [L]
 RewriteRule ^account-edit$                /account_edit.php [L]
