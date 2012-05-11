@@ -450,7 +450,8 @@ define('DIR_WS_ICONS', DIR_WS_IMAGES . 'icons/');
 // include the language translations
 require(DIR_WS_LANGUAGES . $language . '.php');
 
-// currency
+// currency 
+
 if (!tep_session_is_registered('currency') || isset($HTTP_GET_VARS['currency']) || ( (USE_DEFAULT_LANGUAGE_CURRENCY == 'true') && (LANGUAGE_CURRENCY != $currency) ) ) {
 	if (!tep_session_is_registered('currency')) tep_session_register('currency');
 
@@ -460,9 +461,9 @@ if (!tep_session_is_registered('currency') || isset($HTTP_GET_VARS['currency']) 
 		$currency = 'BRL';
 	}  elseif ($check_server == 'mx') {
 		$currency = 'MXN';
-	} elseif ($check_server == 'en') {
+	}/* elseif ($check_server == 'en') {
 		$currency = 'USD';
-	}
+	}*/
 	else {
 		$currency = (USE_DEFAULT_LANGUAGE_CURRENCY == 'true') ? LANGUAGE_CURRENCY : DEFAULT_CURRENCY;
 	}
@@ -755,4 +756,5 @@ if (MAINTENANCE_ENABLE) {
 	if (!isset($_SESSION['ghj']))
 	die('Le site est actuellement en maintenance et sera de nouveau disponible dans quelques minutes.<br />Veuillez nous excuser pour la g&ecircne occasionn&eacute;e.');
 }
+error_log(LANGUAGE_CURRENCY);
 ?>

@@ -76,6 +76,7 @@
   tep_session_unregister('neta_lastname');
   tep_session_unregister('neta_email');
 }
+
 ?>
 
 <script type="text/javascript">
