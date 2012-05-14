@@ -60,11 +60,17 @@
     	while (list($type, $infos) = each($this->discounts)) {
     		if ($infos['type'] == 'p') {
     			$this->discounts[$type]['amount'] = $cart->show_total()*$infos['discount']/100;
-    			error_log('ttttttttttttttttt');
+    		}
+    		elseif($infos['generated_by'] == 'avoir'){
+    			if ($infos['discount'] > $cart->show_total()){
+    				$this->discounts[$type]['amount'] = $cart->show_total();
+    			}
+    			else{
+    				$this->discounts[$type]['amount'] = $infos['discount'];
+    			}
     		}
     		elseif (in_array($infos['generated_by'],  array('customer_service', 'first_order','pack_reduction'))) {
     			$first_order = $cart->first_order();
-    			error_log('----------------'.$total);
     			if ($infos['generated_by'] == 'coupon_pack' && ($total < 2 || !$first_order)) {
     				unset($this->discounts[$type]);
     				$temp = $this->discounts;

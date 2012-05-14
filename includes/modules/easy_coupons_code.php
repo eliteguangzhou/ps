@@ -53,6 +53,7 @@ if (ACTIVATE_DISCOUNT) {
 						elseif ($discount['generated_by'] == 'packreduc'){
 							$have_packreduc = true;
 						}
+
 						elseif ($discount['generated_by'] == 'customer_service'){
 							$have_customer_service = true;
 						}
@@ -425,5 +426,8 @@ if (ACTIVATE_DISCOUNT) {
 		// clear the input fields
 		$coupon_code = '';
 	}
+					//elseif ($discount['generated_by'] == 'avoir'){
+							$easy_discount->recalculate();
+						//}
 }
 ?>
