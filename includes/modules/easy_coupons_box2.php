@@ -7,22 +7,23 @@ if ($ec_active) {
    <td width="100%" align="center">
     <table class="bordergray" width="100%">
      <tr>
-        <td align="right" style="padding-right: 20px;line-height:100%;">
-            <?php echo YOUR_PROMO_CODE;?>
+        <td align="right" style="padding-right: 20px;line-height:100%;text-align:center;">
+            <?php echo EC_COUPONCODE;?>
         </td>
      </tr>
      <tr>
-        <td align="right" style="padding-right: 20px;" class="ec_input">
+        <td align="" style="" class="ec_input">
           <?php
             echo tep_draw_input_field('coupon_code', '', ' size="'.($ec_clth+5).'"  maxlength="'.$ec_clth.'" class="inputbox" id="couponcode" ', 'text', false);
+          ?>
+          <?php
+            echo ' ' .tep_hide_session_id() . tep_image_submit('button_reduction.gif', 'OK', ' name="confirm" ');
           ?>
         </td>
      </tr>
      <tr>
         <td align="right" style="padding-right: 20px;">
-          <?php
-            echo ' ' .tep_hide_session_id() . tep_image_submit('button_reduction.gif', 'OK', ' name="confirm" ');
-          ?>
+
         </td>
      </tr>
     </table>

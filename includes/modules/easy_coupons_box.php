@@ -30,7 +30,7 @@ document.write(' <a href="javascript:session_win2();">');
           </td>
           <td align="left" width="50%">
           <?php
-            echo $ec_reset ? tep_image_submit('button_reinit.gif', 'R�initialiser', ' name="reset" onclick="document.getElementById(\'couponcode\').value=\'reset\';" ') : ' ';
+            echo $ec_reset ? tep_image_submit('button_reinit.gif', 'R&eacute;initialiser', ' name="reset" onclick="document.getElementById(\'couponcode\').value=\'reset\';" ') : ' ';
           ?>
           </td>
          </tr>
