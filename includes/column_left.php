@@ -15,7 +15,7 @@
     <td>
   		<table border="0" cellspacing="0" cellpadding="0" class="box_width_left">
       <?php
-        require(DIR_WS_BOXES . 'best_manufacturers.php');
+      //  require(DIR_WS_BOXES . 'best_manufacturers.php');
         require(DIR_WS_BOXES . 'best_products.php');
 
         if ($check_server == 'fr')
