@@ -16,7 +16,7 @@ define(SUB_TITLE_SUB_TOTAL,'Subtotal');
 define(SUB_TITLE_FRAIS_PORT,'shipping');
 define(SUB_TITLE_TOTAL,'Total');
 define(FREE_SHIPPING_COST,'Free');
-// 
+define(SUB_TITLE_NB_PRODUCTS_DISCOUNT,'Discount');
 // define(,'');
 // define(,'');
 // define(,'');

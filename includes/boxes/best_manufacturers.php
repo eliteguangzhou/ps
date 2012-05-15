@@ -80,5 +80,6 @@ else {
   $info_box_contents[] = array('text' => $str);
   new infoBox($info_box_contents);
 }
+echo 'ppppppppp';
 ?>
 </td></tr>

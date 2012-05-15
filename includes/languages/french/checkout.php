@@ -9,13 +9,14 @@ define(TITLE_CHKBOX_SAMEAS,'Adresse de livraison est la meme que celle de factur
 define(TITLE_NEW_SHIPPING_ADDRESS,'Nouvelle adresse');
 define(TABLE_HEADING_SHIPPING_METHOD,'Frais de port');
 define(TEXT_ENTER_SHIPPING_INFORMATION,'');
-define(TITLE_PAYMENT_METHOD,'Methode de payement 100% securis&eacute;:');
+define(TITLE_PAYMENT_METHOD,'Methode de paiement 100% securis&eacute;:');
 define(TEXT_ENTER_PAYMENT_INFORMATION,'Paypal');
 define(TEXT_EDIT,'Editer ma commande');
 define(SUB_TITLE_SUB_TOTAL,'Sous-total');
 define(SUB_TITLE_FRAIS_PORT,'Frais de port');
 define(SUB_TITLE_TOTAL,'Total');
 define(FREE_SHIPPING_COST,'Gratuit');
+define(SUB_TITLE_NB_PRODUCTS_DISCOUNT,'R&eacute;duction');
 // define(,'');
 // define(,'');
 // define(,'');

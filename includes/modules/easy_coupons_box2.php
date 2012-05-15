@@ -7,7 +7,7 @@ if ($ec_active) {
    <td width="100%" align="center">
     <table class="bordergray" width="100%">
      <tr>
-        <td align="right" style="padding-right: 20px;line-height:100%;text-align:center;">
+        <td align="right" style="padding-right: 20px;line-height:100%;text-align:center;text-size:2em;">
             <?php echo EC_COUPONCODE;?>
         </td>
      </tr>
