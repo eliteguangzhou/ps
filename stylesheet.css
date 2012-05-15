@@ -276,7 +276,7 @@ span.productSpecialPrice {font-size:12px; font-weight:bold; color:#d60d00; }
 .cart_line_x 		{background:url(images/line_x.gif) left center repeat-x;}
 .cart_line_y 		{background:url(images/line_y.gif) center top repeat-y;}
 
-.cart_total_left  	{width:80%; text-align:right; vertical-align:middle;height:20px;}
+.cart_total_left  	{width:80%; text-align:right; vertical-align:middle;height:20px;padding-left:10px;}
 .cart_total_right  	{width:20%; text-align:center;vertical-align:middle;}
 
 
@@ -378,7 +378,7 @@ a.box_button_minus:hover, a.box_button_plus:hover{text-decoration:none;}
 
 /*Coupons*/
 #ec_coupon{margin:5px;}
-#ec_coupon td{vertical-align:middle;font-size: 2.5em;
+#ec_coupon td{vertical-align:middle;font-size: 2em;
 color: #F3F;
 font-weight: bold;}
 #couponcode{text-align:center;}
