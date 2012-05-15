@@ -51,11 +51,11 @@ Choisissez votre cadeau en cliquant ici !
 
 define('MIN_PRODUCTS', '<span class="min_products">Veuillez ajouter un produit dans votre panier afin de pouvoir valider votre commande.</span>');
 
-define('SPECIAL_PROMO', '<br /><b>Tableau des offres en cours :</b><br />
-<table cellpadding="2" cellspacing="0" class="special_promo" style="text-align:center;margin:5px 0;width:370px;" align="center" border="1">
-<tr class="header" style="font-weight:bold;">
-  <td>Nbr produits<br />achet&eacute;s</td><td>Frais de port</td><td>R&egrave;duction<br />imm&eacute;diate</td>
-</tr>%s</table>
+define('SPECIAL_PROMO', '<div class="special_promo_bg"><b>&Eacute;conomisez  D&apos;avantage</b><br />
+<table cellpadding="2" cellspacing="0" class="special_promo" style="text-align:center;margin:5px 5px 5px 140px ;width:305px;" align="center" border="1">
+<tr style="font-weight:bold;">
+  <td>Nbr de produits<br />achet&eacute;s</td><td>Frais de port</td><td>R&eacute;duction<br />imm&eacute;diate</td>
+</tr>%s</table></div>
 ');
 
 define('SPECIAL_PROMO1', 'Achetez 2 articles et ne payez que 7EUR de frais de port.');
