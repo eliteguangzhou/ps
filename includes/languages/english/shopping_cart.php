@@ -45,7 +45,7 @@ For the purchase of two fragrances:<br />
 define('MIN_PRODUCTS', '<span class="min_products">Please add a product in your shopping cart in order to complete your order.</span>');
 
 define('SPECIAL_PROMO', '<div class="special_promo_bg"><b>Table of current offers :</b><br />
-<table cellpadding="2" cellspacing="0" class="special_promo" style="text-align:center;margin:5px 5px 5px 140px ;width:305px;" align="center" border="1">
+<table cellpadding="2" cellspacing="0" class="special_promo" style="text-align:center;margin:5px 5px 5px 140px;width:305px;" align="center" border="1">
 <tr style="font-weight:bold;">
   <td>Nb products
 purchased<br /></td><td>Shipping</td><td>Immediate reduction</td>
