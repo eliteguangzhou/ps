@@ -12,7 +12,7 @@ if ($ec_active) {
         </td>
      </tr>
      <tr>
-        <td align="" style="" class="ec_input">
+        <td  class="ec_input">
           <?php
             echo tep_draw_input_field('coupon_code', '', ' size="'.($ec_clth+5).'"  maxlength="'.$ec_clth.'" class="inputbox" id="couponcode" ', 'text', false);
           ?>

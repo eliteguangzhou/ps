@@ -15,7 +15,7 @@ define(TEXT_EDIT,'Editer ma commande');
 define(SUB_TITLE_SUB_TOTAL,'Sous-total');
 define(SUB_TITLE_FRAIS_PORT,'Frais de port');
 define(SUB_TITLE_TOTAL,'Total');
-define(FREE_SHIPPING_COST,'Offert');
+define(FREE_SHIPPING_COST,'Gratuit');
 // define(,'');
 // define(,'');
 // define(,'');

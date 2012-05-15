@@ -32,7 +32,7 @@ define('STR_GIFT', 'Votre cadeau offert');
 define('STR_GIFT_CHOOSE', '<script type="text/javascript">document.write(\'<br /><br />Vous pr&egrave;f&eacute;rez un autre cadeau ?<br /><a href="'.tep_href_link(FILENAME_SHOPPING_CART).'#" onclick="document.getElementById(\\\'popup\\\').style.display = \\\'block\\\'">Cliquez ici !</a>\');</script>');
 define('CART_MAX_AMOUNT_REACHED', 'Par mesure de s&eacute;curit&eacute;, le montant maximum d\'une commande est limit&eacute;e &agrave; 300&euro;');
 
-define('FREE_SHIPPING_COST', 'Offert');
+define('FREE_SHIPPING_COST', 'Gratuit');
 define('PROMO_SHIPPING_COST', '
 <ul class="promo_nb promo_nb2" id="promo_nb1">
 Pour l\'achat de '.NB_GIFT_FOR_3.' parfums :<br />
