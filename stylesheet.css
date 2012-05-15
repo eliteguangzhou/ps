@@ -89,6 +89,9 @@ table, td, .main, select, input, textarea {
 img      {border:0px;}
 table	 {width:100%;}
 
+.special_promo_bg{background:url(../images/table_bg.jpg); height:240; width:450px; text-align:center;}
+.special_promo_bg b{ font-size:16px; color:#fff; margin-left:140px;}
+
 .vam { vertical-align:middle}
 .header td.shipCart{ padding-right : 25px; color:white; }
 .header td.shipCart a {color:white;}
@@ -444,9 +447,9 @@ table#sponsorship_list td{padding:3px;}
 .messageStackError .min_products{font-size:14px;}
 
 /*shopping_cart promo*/
-.product table.special_promo td{color:#000;font-size:18px;line-height:20px;}
-.product table.special_promo tr.second td{background-color:#ddd;}
-.product table.special_promo tr.header td{background-color:#ddd;color:#f00;}
+.product table.special_promo td{color:#fff;font-size:18px;line-height:20px;}
+.product table.special_promo tr.second td{background-color:none;}
+
 
 .ubber_promo1{color:#ff33ff;font-weight:bold;margin-top:10px;line-height:23px;width:370px;}
 .ubber_promo2{color:#000;font-weight:bold;margin-top:10px;line-height:23px;width:370px;}
