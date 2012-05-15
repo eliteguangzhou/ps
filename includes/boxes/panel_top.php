@@ -57,7 +57,7 @@ error_log('-----------------'.$language_id);
 <?php if ($language_id == 5 || TRUE)  { ?>
 <script type="text/javascript">
 $(document).ready(function () {
-    window.setInterval("switch_pic()",4000);
+    window.setInterval("switch_pic()",6000);
 });
 
 function switch_pic(){
@@ -68,12 +68,12 @@ function switch_pic(){
     
     img = jQuery("img",$('#picture_sw'));
     path = img.attr("src");
-        img.fadeOut(500);
+        img.fadeOut(1500);
     if (path == path1){
-        img.attr("src",path2).stop(true,true).fadeIn(500);
+        img.attr("src",path2).stop(true,true).fadeIn(1500);
         }
     else{
-        img.attr("src",path1).stop(true,true).fadeIn(500);
+        img.attr("src",path1).stop(true,true).fadeIn(1500);
         
         }
 }

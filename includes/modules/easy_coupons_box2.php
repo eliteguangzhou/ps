@@ -7,7 +7,7 @@ if ($ec_active) {
    <td width="100%" align="center">
     <table class="bordergray" width="100%">
      <tr>
-        <td align="right" style="padding-right: 20px;color:#FF92FF">
+        <td align="right" style="padding-right: 20px;line-height:100%;">
             <?php echo YOUR_PROMO_CODE;?>
         </td>
      </tr>

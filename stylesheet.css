@@ -375,11 +375,14 @@ a.box_button_minus:hover, a.box_button_plus:hover{text-decoration:none;}
 
 /*Coupons*/
 #ec_coupon{margin:5px;}
-#ec_coupon td{vertical-align:middle;}
+#ec_coupon td{vertical-align:middle;font-size: 2.5em;
+color: #F3F;
+font-weight: bold;}
 #couponcode{text-align:center;}
 table#ec_coupon td.ec_label{color:#ff33ff;font-weight:bold;}
 .ec_input input{
     border:1px solid #ff92ff;
+    height: 22px;
 }
 #new_discount{text-decoration:none;color:blue;}
 
