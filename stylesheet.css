@@ -89,8 +89,9 @@ table, td, .main, select, input, textarea {
 img      {border:0px;}
 table	 {width:100%;}
 
-.special_promo_bg{background:url(../images/table_bg.jpg); height:240; width:450px; text-align:center;}
-.special_promo_bg b{ font-size:16px; color:#fff; margin-left:140px;}
+.special_promo_bg{background:url(../images/table_bg.jpg); height:240; width:400px; text-align:center;}
+.special_promo_bg b{ font-size:16px; color:#fff; margin-left:130px;}
+.special_promo_bg table{ width:250px !important;}
 
 .vam { vertical-align:middle}
 .header td.shipCart{ padding-right : 25px; color:white; }
