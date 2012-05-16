@@ -12,8 +12,8 @@
 
 define('EMAIL_SEPARATOR', '------------------------------------------------------');
 define('EMAIL_TEXT_SUBJECT', 'Traitement de la commande');
-define('EMAIL_TEXT_ORDER_NUMBER', 'Les vacances approchent, nous vous invitons à suivre l\'état de livraison de votre colis via le tracking mentionné sur www.bpostinternational.com, en cas d\'absence, le colis reste en poste pendant une période aléatoire de 5 à 15 jours, au dela de ce délai, votre colis nous sera retourné.<br />
-Vous pouvez donner procuration à un ami ou à un voisin avec la copie de votre pièce d\'identité pour éviter que votre colis nous soit retourné.<br />
+define('EMAIL_TEXT_ORDER_NUMBER', 'Les vacances approchent, nous vous invitons &agrave; suivre l\'&egrave;tat de livraison de votre colis via le tracking mentionn&egrave; sur www.bpostinternational.com, en cas d\'absence, le colis reste en poste pendant une p&eacute;riode al&egrave;atoire de 5 à 15 jours, au dela de ce d&eacute;lai, votre colis nous sera retourn&eacute;.<br />
+Vous pouvez donner procuration &agrave; un ami ou &agrave; un voisin avec la copie de votre pièce d\'identit&egrave; pour &egrave;viter que votre colis nous soit retourn&egrave;.<br />
 '.EMAIL_SEPARATOR."\n".'Numéro de commande :');
 
 define('EMAIL_TEXT_NAME','Nom');

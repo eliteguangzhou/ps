@@ -124,7 +124,7 @@
       }
 
       switch ($check_server) {
-          case 'fr' : $page_style = 'parfumreduc';break;
+          case 'fr' : $page_style = 'parfumseduction';break;
           case 'br' : $page_style = 'perfumefranca';break;
           default : $page_style = 'primary';break;
       }

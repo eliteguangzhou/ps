@@ -61,7 +61,7 @@ if ( $category_depth == 'products' || (isset($HTTP_GET_VARS['manufacturers_id'])
   define('HEADING_TITLE', 'Cat&eacute;gories');
 }
 
-define('NEW_INTRO','<h2 style="font-size:17px;margin-bottom:10px;"><b>Parfumerie DISCOUNT</b><br />
+define('NEW_INTRO','<h2 style="font-size:17px;margin-bottom:10px;"><br />
 A vos marques, sprays, partez !</h2>
 Bienvenue au royaume des secrets des parfums &agrave; petits prix !
 

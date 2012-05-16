@@ -21,7 +21,7 @@ define('TEXT_INFORMATION', '
 登记号码为5069891888223892.
  </p>
 
-<p align="justify"> 个人有责付登陆费用拓展电脑资料，进入网站parfumreduc'.STORE_NAME.'</ p>
+<p align="justify"> 个人有责付登陆费用拓展电脑资料，进入网站parfumseduction'.STORE_NAME.'</ p>
 
 <p align="justify"> 一般销售条件确认后，首先建议通过网络购物的用户，明确成交产品双方的权力和义务.
 没有认何限制，他们所选购的所有产品，包括礼券都在网站上提供。 </p>

@@ -22,13 +22,13 @@ class newsletter {
 
       $newsletter = (int) $_GET['newsletter'];
       $type = htmlentities($_GET['type']);
-      setcookie('newsletter_parfumreduc', $newsletter.'||'.$type, time()+60*60*24*30);
+      setcookie('newsletter_parfumseduction', $newsletter.'||'.$type, time()+60*60*24*30);
     }
   }
 
   function save_newsletter_order($orders_id) {
-    if (isset($_COOKIE['newsletter_parfumreduc']) && !empty($_COOKIE['newsletter_parfumreduc'])) {
-      $temp = explode('||', $_COOKIE['newsletter_parfumreduc']);
+    if (isset($_COOKIE['newsletter_parfumseduction']) && !empty($_COOKIE['newsletter_parfumseduction'])) {
+      $temp = explode('||', $_COOKIE['newsletter_parfumseduction']);
       if (count($temp) == 2) {
         list($newsletter, $type) = $temp;
 		//Check if not already registered

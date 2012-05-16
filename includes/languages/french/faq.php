@@ -16,11 +16,11 @@ define('HEADING_TITLE', 'FAQ');
 define('TEXT_INFORMATION', '
 <h1>FOIRE AUX QUESTIONS</h1>
 
-Nous recevons chaque jours des centaines de questions. Afin de faciliter l\'accès &agrave; l\'information, nous avons list&eacute;
+Nous recevons chaque jours des centaines de questions. Afin de faciliter l\'accï¿½s &agrave; l\'information, nous avons list&eacute;
 les questions les plus fr&eacute;quentes que nous recevons.
 <br/>
 Si vos questions ne figure pas ci-dessous, nous vous prions de nous envoyer un mail &agrave;
-contact@parfumreduc.com.
+contact@parfumseduction.com.
 <br/>
 Nous ferons notre possible pour vous r&eacute;pondre dans les meilleurs d&eacute;lais.
 
@@ -30,12 +30,12 @@ Nous ferons notre possible pour vous r&eacute;pondre dans les meilleurs d&eacute
 </h3>
 Si le parfum que vous d&eacute;sirez ne figure pas sur notre site, cela signifie soit qu\'il est en rupture de stock, soit que
 nous ne le vendons pas.
-Étant donn&eacute; que nos arrivages ne sont jamais les mêmes, nous vous invitons &agrave; vous connecter le plus souvent
+ï¿½tant donn&eacute; queï¿½nos arrivages ne sont jamais lesï¿½mï¿½mes, nous vous invitons &agrave; vous connecter le plus souvent
 &agrave; notre site pour v&eacute;rifier la disponibilit&eacute; du produit concern&eacute;.
 <h3>
-2. Vos produits sont-ils authentiques  ?
+2. Vos produits sont-ils authentiquesï¿½ ?
 </h3>
-Nos produits sont 100 % authentiques et proviennent de parfumeries agr&eacute;es aux USA et en Europe.
+Nos produits sont 100ï¿½% authentiques et proviennent de parfumeries agr&eacute;es aux USA et en Europe.
 
 Sachez que nous sommes dans le domaine des cosm&eacute;tiques en ligne depuis plus de
 6 ans. Si nous sommes l&agrave; depuis si longtemps, c\'est que nous avons su aqu&eacute;rir la
@@ -53,16 +53,16 @@ pr&eacute;cis).
 4. Pourquoi les prix de certains produits sont parfois plus chers qu\'en magasin?
 </h3>
 Nous vendons plus de 16 000 produits et 80 % de nos produits sont moins chers qu\'en
-magasin. Cependant, il se peut que certains prix soient les mêmes ou plus chers mais
+magasin. Cependant, il se peut que certains prix soient les mï¿½mes ou plus chers mais
 cela reste une minorite. Pour ce dernier cas, la raison est que notre fournisseur ne nous
-fournit pas ce produit &agrave; un prix int&eacute;ressant et dans la mesure où on applique une formule
+fournit pas ce produit &agrave; un prix int&eacute;ressant et dans la mesure oï¿½ on applique une formule
 math&eacute;matique sur nos 8000 produits, nous ne pouvons pas v&eacute;rifier la totalit&eacute;.
 <h1>
 LA COMMANDE
 </h1><h3>
-1. Comment passer une commande  ?
+1. Comment passer une commandeï¿½ ?
 </h3>
-C\'est votre premier achat sur Parfumreduc.com ?  
+C\'est votre premier achat surï¿½Parfumreduc.comï¿½?ï¿½ï¿½
 
 Nous vous souhaitons la Bienvenue et nous vous invitons &agrave; suivre les &eacute;tapes suivantes :
 <br/>1.Choisissez les articles que vous souhaitez acheter
@@ -70,77 +70,77 @@ Nous vous souhaitons la Bienvenue et nous vous invitons &agrave; suivre les &eac
 <br/>3.Lorsque vous avez ajout&eacute; tous vos articles &agrave; votre panier, il ne vous reste plus qu\'&agrave; cliquer sur
 <br/>4."COMMANDER". Si vous souhaitez ajouter d\'autres articles, cliquez sur " Continuer mes achats
 <br/>5.Identifiez-vous. Pour plus de s&eacute;curit&eacute;, un mot de passe et votre email vous seront demand&eacute;s.
-<br/>6.Choisissez votre adresse de facturation et votre adresse de livraison 
+<br/>6.Choisissez votre adresse de facturation et votre adresse de livraisonï¿½
 
-Nous vous remercions d\'indiquer très pr&eacute;cis&eacute;ment le nom de votre commune ainsi que votre code postal.
+Nous vous remercions d\'indiquer trï¿½s pr&eacute;cis&eacute;ment le nom de votre commune ainsi que votre code postal.
 Veillez &agrave; bien orthographier le nom de la ville de livraison : les abr&eacute;viations, fautes d\'orthographe et autres
-coquilles peuvent parfois entraîner des erreurs dans cette rubrique. Pensez aussi &agrave; pr&eacute;ciser les informations
-suivantes : code d\'accès, &eacute;tage, immeuble. 
+coquilles peuvent parfois entraï¿½ner des erreurs dans cette rubrique.ï¿½Pensez aussi &agrave; pr&eacute;ciser les informations
+suivantesï¿½: code d\'accï¿½s, &eacute;tage, immeuble.ï¿½
 <h3>
-2. Quels sont vos modes de paiement  ?
+2. Quels sont vos modes de paiementï¿½ ?
 </h3>
 Les paiements se font par carte bancaire, c\'est facile, rapide et s&eacute;curis&eacute;.
-Nous acceptons les cartes VISA, MASTER CARD. 
-Nous vous garantissons une s&eacute;curit&eacute; maximale. 
-La transaction sera r&eacute;alis&eacute;e de façon s&eacute;curis&eacute;e par le biais du service de paiement de paypal. 
+Nous acceptons les cartesï¿½VISA,ï¿½MASTER CARD.ï¿½
+Nous vous garantissons uneï¿½s&eacute;curit&eacute; maximale.ï¿½
+La transaction sera r&eacute;alis&eacute;e de faï¿½on s&eacute;curis&eacute;e par le biais du service de paiement de paypal.ï¿½
 Toutes les donn&eacute;es bancaires saisies (num&eacute;ro de carte, cryptogramme et date d\'expiration de votre carte) lors
-de votre paiement par carte bancaire sont imm&eacute;diatement crypt&eacute;es grâce au protocole SSL et enregistr&eacute;es sur
-le serveur de paiement paypal. 
+de votre paiement par carte bancaire sont imm&eacute;diatement crypt&eacute;es grï¿½ce au protocole SSL et enregistr&eacute;es sur
+le serveur de paiement paypal.ï¿½
 
-Aucunes donn&eacute;es de paiement ne sont stock&eacute;es sur le site Parfumreduc.com, &eacute;vitant toute possibilit&eacute; de fraude
-par piratage du site Parfumreduc.com . 
+Aucunes donn&eacute;es de paiement ne sont stock&eacute;es sur le siteï¿½Parfumreduc.com, &eacute;vitant toute possibilit&eacute; de fraude
+par piratage du siteï¿½Parfumreduc.comï¿½.ï¿½
 <h3>
-3. Puis-je annuler ma commande  ?
+3. Puis-je annuler ma commandeï¿½ ?
 </h3>
 Lorsque les commandes se font, elles sont trait&eacute;es automatiquement, nous ne pouvons donc pas vous assurer
 &agrave; 100% que ce n\'est pas trop tard.
 Nous vous rappelons aussi, comme le pr&eacute;cise nos CGV: "Vous pouvez annuler ou faire des modifications
 d\'informations sur votre commande si et seulement si celle-ci n\'a pas &eacute;t&eacute; trait&eacute;e et dans un d&eacute;lai maximum d\'une
-heure après le passage de la commande".
+heure aprï¿½s le passage de la commande".
 <h3>
-4. Que faire si j\'ai oubli&eacute; d\'ins&eacute;rer le code cadeau/ code r&eacute;duction  ?
+4. Que faire si j\'ai oubli&eacute; d\'ins&eacute;rer le code cadeau/ code r&eacute;ductionï¿½ ?
 </h3>
-Puisque les commandes se font automatiquement dès la validitation, nous ne pouvons ajouter les cadeaux &agrave;
+Puisque les commandes se font automatiquement dï¿½s la validitation, nous ne pouvons ajouter les cadeaux &agrave;
 votre commande. Cependant, nous pouvons faire de notre mieux pour les inclure &agrave; votre commande si vous
 nous informez imm&eacute;diatement de votre oubli, mais cela ne garantit rien.
 <h3>
-5. Comment puis-je suivre ma commande  ?
+5. Comment puis-je suivre ma commandeï¿½ ?
 </h3>
-Vous pouvez suivre votre commande sur notre site grâce &agrave; votre num&eacute;ro de commande figurant dans votre
-e-mail de confirmation d\'exp&eacute;dition.  
-Après le traitement et l\'exp&eacute;dition de votre commande, vous recevrez un e-mail. Celui-ci indique votre num&eacute;ro
+Vous pouvez suivre votre commande sur notre site grï¿½ce &agrave; votre num&eacute;ro de commande figurant dans votre
+e-mail de confirmation d\'exp&eacute;dition.ï¿½ï¿½
+Aprï¿½s le traitement et l\'exp&eacute;dition de votre commande, vous recevrez un e-mail. Celui-ci indique votre num&eacute;ro
 de commande (le num&eacute;ro qui s\'est affich&eacute; sur le site lorsque la commande a &eacute;t&eacute; accept&eacute;e), le num&eacute;ro de suivi,
-votre num&eacute;ro client, le d&eacute;tail des produits command&eacute;s et les prix correspondants.  
+votre num&eacute;ro client, le d&eacute;tail des produits command&eacute;s et les prix correspondants.ï¿½ï¿½
 
 Codes promotionnels
-Pour b&eacute;n&eacute;ficier d\'une promotion, il vous suffit de saisir le code correspondant dans l\'&eacute;tape Paiement. Ces offres
+Pour b&eacute;n&eacute;ficier d\'une promotion, il vous suffitï¿½de saisir le codeï¿½correspondant dans l\'&eacute;tape Paiement. Ces offres
 impliquent parfois un montant minimum d\'achat (hors frais de livraison). Si cette promotion a bien &eacute;t&eacute; prise en
-compte, l\'offre promotionnelle apparaîtra dans votre panier de commande
+compte, l\'offre promotionnelle apparaï¿½tra dans votre panier de commande
 <h3>
-6. Pouvez-vous nous envoyer des &eacute;chantillons  ?
+6. Pouvez-vous nous envoyer des &eacute;chantillonsï¿½ ?
 </h3>
-Nous n\'offrons pas d\'&eacute;chantillons &agrave; vous proposer &agrave; l\'heure actuelle. Cependant, nous faisons r&eacute;gulièrement des
-offres très int&eacute;ressantes tels que des cadeaux (gels douche, crèmes etc).
+Nous n\'offrons pas d\'&eacute;chantillons &agrave; vous proposer &agrave; l\'heure actuelle. Cependant, nous faisons r&eacute;guliï¿½rement des
+offres trï¿½s int&eacute;ressantes tels que des cadeaux (gels douche, crï¿½mes etc).
 Nous vous invitons &eacute;galement &agrave; d&eacute;couvrir les diff&eacute;rentes senteurs dans une parfumerie, afin de faire votre choix
 pour passer commande en ligne par la suite.
 <h3>
-7. Je n\'ai pas reçu ma commande est-ce normal  ?
+7. Je n\'ai pas reï¿½u ma commande est-ce normalï¿½ ?
 </h3>
-Nous livrons dans un d&eacute;lai de 8 &agrave; 12 jours ouvr&eacute;s. Veuillez suivre r&eacute;gulièrement votre colis &agrave; l\'aide de votre
+Nous livrons dans un d&eacute;lai de 8 &agrave; 12 jours ouvr&eacute;s. Veuillez suivre r&eacute;guliï¿½rement votre colis &agrave; l\'aide de votre
 num&eacute;ro de suivi.
 
 Pour plus de d&eacute;tails veuillez lire nos CGV (lien)
 <h3>
-8. Puis-je faire des commandes group&eacute;es  ?
+8. Puis-je faire des commandes group&eacute;esï¿½ ?
 </h3>
 Nous sommes dans le regret de vous dire que cela n\'est pas faisable. En effet, le nombre maximum de produits
 par commande est de six, n\'incluant pas les cadeaux.
 <h1>
 LA LIVRAISON
 </h1><h3>
-1.Quels sont vos tarifs pour les frais d\'envoi  ?
+1.Quels sont vos tarifs pour les frais d\'envoiï¿½ ?
 </h3>
-Voici le tableau de nos frais de livraison :
+Voici le tableau de nos frais de livraisonï¿½:
 <table style="text-align:center;" border="1" width="75%">
     <tr>
         <td>
@@ -223,37 +223,37 @@ Voici le tableau de nos frais de livraison :
 <h3>
 2. Y a-t-il des taxes lors de la livraison ou droits de douanes?
 </h3>
-Vous payez vos parfums &agrave; prix coûtant. Il n\'y a aucun frais de structure, de frais marketing, ni de taxes ou
+Vous payez vos parfums &agrave; prix coï¿½tant. Il n\'y a aucun frais de structure, de frais marketing, ni de taxes ou
 autres.
 <h3>
-3. Que se passe-t-il lorsqu\'un colis est retourn&eacute;  ?
+3. Que se passe-t-il lorsqu\'un colis est retourn&eacute;ï¿½ ?
 </h3>
-Lorsqu\'un colis est retourn&eacute;, cela peut prendre jusqu\'&agrave; 45 jours pour qu\'un colis revienne dans nos entrepôts.
-Dès r&eacute;ception du colis nous vous proposons soit un avoir du montant de votre commande, soit une r&eacute;exp&eacute;dition
+Lorsqu\'un colis est retourn&eacute;, cela peut prendre jusqu\'&agrave; 45 jours pour qu\'un colis revienne dans nos entrepï¿½ts.
+Dï¿½s r&eacute;ception du colis nous vous proposons soit un avoir du montant de votre commande, soit une r&eacute;exp&eacute;dition
 &agrave; vos frais (20 &euro;).
 Si vous optez pour une r&eacute;exp&eacute;dition, nous vous enverrons une facture paypal de 20 &euro;. Lorsque cette facture est
 pay&eacute;e, nous proc&eacute;dons imm&eacute;diatement au renvoi du colis.
 <h3>
-4. Comment puis-je me faire rembourser  ?
+4. Comment puis-je me faire rembourserï¿½ ?
 </h3>
 Le remboursement du ou des produits sera effectu&eacute; dans un d&eacute;lai maximum de 60 &agrave; 90 jours &agrave; compter de la
-date de litige constat&eacute;. Parfumreduc.com se r&eacute;serve le droit de rembourser les transactions par tout moyen de
+date de litige constat&eacute;.ï¿½Parfumreduc.comï¿½se r&eacute;serve le droit de rembourser les transactions par tout moyen de
 remboursement de son choix.
 <h1>
 LES INFORMATIONS PERSONNELLES
 </h1><h3>
-1. Mes donn&eacute;es sont-elles prot&eacute;g&eacute;es et s&eacute;curis&eacute;es  ?
+1. Mes donn&eacute;es sont-elles prot&eacute;g&eacute;es et s&eacute;curis&eacute;esï¿½ ?
 </h3>
 Nous comprenons votre ins&eacute;curit&eacute; par rapport &agrave; vos donn&eacute;es confidentielles que vous nous fournissez
 lorsque vous effectuez un achat chez nous, cependant nous nous engageons &agrave; ne pas divulguer &agrave; des tiers
 les informations que vous nous communiquez. Nous vous assurons que toutes vos donn&eacute;es seront utilis&eacute;es
 uniquement pour le traitement de votre commande.
 <br/>
-Nous nous r&eacute;servons tout de même la possibilit&eacute; d\'utiliser &agrave; des fins commerciales les donn&eacute;es transmises par
-l\'utilisateur si celui-ci l\'accepte lors de l\'inscription : " Je souhaite m\'abonner &agrave; la newsletter Parfumreduc.com ".
+Nous nous r&eacute;servons tout de mï¿½me la possibilit&eacute; d\'utiliser &agrave; des fins commerciales les donn&eacute;es transmises par
+l\'utilisateur si celui-ci l\'accepte lors de l\'inscription : " Je souhaite m\'abonner &agrave; la newsletterï¿½Parfumreduc.comï¿½".
 Dans le cas contraire, l\'Utilisateur est cens&eacute; y renoncer.
 <br/>
-Enfin, il est pr&eacute;cis&eacute; que des cookies pourront être implant&eacute;s dans l\'ordinateur de l\'utilisateur lors de l\'utilisation
+Enfin, il est pr&eacute;cis&eacute; que des cookies pourront ï¿½tre implant&eacute;s dans l\'ordinateur de l\'utilisateur lors de l\'utilisation
 du pr&eacute;sent site internet.
 Un cookie n\'a que pour but d\'enregistrer des informations relatives &agrave; la navigation de l\'utilisateur et permet une
 reconnexion sur le pr&eacute;sent site plus facile et &eacute;vite de remplir certains &eacute;l&eacute;ments pr&eacute;alablement demand&eacute;s.

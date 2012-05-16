@@ -1039,8 +1039,8 @@
       }
 
       switch($retry) {
-        case 1 : $from_email_address = 'noreply@parfumreduc.com';
-        case 2 : $from_email_address = 'no-reply@parfumreduc.com';
+        case 1 : $from_email_address = 'noreply@parfumseduction.com';
+        case 2 : $from_email_address = 'no-reply@parfumseduction.com';
       }
     
       require_once(DIR_WS_CLASSES."PHPMailer/class.phpmailer.php");
@@ -1647,27 +1647,27 @@ function create_invoice($number, $order, $order_id) {
     foreach ($order->products as $p) {
         if ($p['model'] != 0) {
             $pdf->Cell(110, 6, 'x' . $p['qty'] . ' ' . $p['name'], 'TRL', 0, 'C');
-            $pdf->Cell(40, 6, round2($p['price'] * $td) . ' €', 'TRL', 0, 'C');
-            $pdf->Cell(40, 6, round2($p['price'] * $p['qty'] * $td) . ' €', 'TRL', 1, 'C');
+            $pdf->Cell(40, 6, round2($p['price'] * $td) . ' ï¿½', 'TRL', 0, 'C');
+            $pdf->Cell(40, 6, round2($p['price'] * $p['qty'] * $td) . ' ï¿½', 'TRL', 1, 'C');
             $pdf->Cell(110, 6, '(' . $p['model'] . ')', 'BRL', 0, 'C');
             $pdf->Cell(40, 6, '', 'BRL', 0, 'C');
             $pdf->Cell(40, 6, '', 'BRL', 1, 'C');
         }
         else {
             $pdf->Cell(110, 6, 'x' . $p['qty'] . ' ' . $p['name'], 1, 0, 'C');
-            $pdf->Cell(40, 6, round2($p['price'] * $td) . ' €', 1, 0, 'C');
-            $pdf->Cell(40, 6, round2($p['price'] * $p['qty'] * $td) . ' €', 1, 1, 'C');
+            $pdf->Cell(40, 6, round2($p['price'] * $td) . ' ï¿½', 1, 0, 'C');
+            $pdf->Cell(40, 6, round2($p['price'] * $p['qty'] * $td) . ' ï¿½', 1, 1, 'C');
         }
         $total += $p['price'] * $p['qty'];
     }
 
     $pdf->Cell(150, 6, 'Subtotal', 1, 0, 'C');
-    $pdf->Cell(40, 6, round2($total * $td) . ' €', 1, 1, 'C');
+    $pdf->Cell(40, 6, round2($total * $td) . ' ï¿½', 1, 1, 'C');
 
     //Affichage frais port
     if ($order->info['shipping_cost'] > 0) {
         $pdf->Cell(150, 6, 'Port', 1, 0, 'C');
-        $pdf->Cell(40, 6, round2($order->info['shipping_cost'] * $td) . ' €', 1, 1, 'C');
+        $pdf->Cell(40, 6, round2($order->info['shipping_cost'] * $td) . ' ï¿½', 1, 1, 'C');
         $total += $order->info['shipping_cost'];
     }
 
@@ -1675,7 +1675,7 @@ function create_invoice($number, $order, $order_id) {
         $total = 0;
         
     $pdf->Cell(150, 6, 'Total Amount', 1, 0, 'C');
-    $pdf->Cell(40, 6, round2($total * $td) . ' €', 1, 1, 'C');
+    $pdf->Cell(40, 6, round2($total * $td) . ' ï¿½', 1, 1, 'C');
 
     $pdf->Ln();
     $pdf->SetFont('Arial', '', 9);
