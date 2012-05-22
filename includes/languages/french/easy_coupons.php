@@ -21,4 +21,5 @@ define('EC_NEED_TO_LOG', 'Vous devez vous authentifier pour pouvoir utiliser ce 
 define('EC_THREE_PRODUCTS_MIN', 'Vous devez avoir au moins 3 produits dans votre panier pour pouvoir utiliser ce code.');
 define('EC_TWO_PRODUCTS_MIN', 'Vous devez avoir au moins 2 produits dans votre panier pour pouvoir utiliser ce code.');
 define('EC_PRODUCTS_ADDED', 'Vos produits cadeaux ont &eacute;t&eacute; ajout&eacute;s &agrave; votre panier');
+define('EC_IN_USE_ONCE','Vous ne pouvez utilisez qu\'un coupon a la fois.');
 ?>
