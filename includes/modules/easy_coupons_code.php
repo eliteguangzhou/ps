@@ -42,6 +42,7 @@ if (ACTIVATE_DISCOUNT) {
 					$have_produit_cadeau = false;
 					$have_customer_service = false;
 					$have_pack_reduction = false;
+					$have_avoir = false;
 					$min_cart_total = $cart_total;
 					foreach ($discounts as $discount) {
 						if (stripos($discount['description'], $inputcouponcode) !== false && $coupon['generated_by'] != 'pack_reduction'){
@@ -60,12 +61,19 @@ if (ACTIVATE_DISCOUNT) {
 						elseif ($discount['generated_by'] == 'pack_reduction'){
 							$have_pack_reduction = true;
 						}
+						elseif($discount['generated_by'] == 'avoir'){
+							$have_avoir = true;
+						}
 						$min_cart_total -= $discount['amount'];
 					}
 
 					if ($already_in_use) {
 						$messageStack->add_session('cart',EC_IN_USE,'error');
 						$messageStack->add('cart',EC_IN_USE,'error');
+					}
+					elseif ($have_avoir){
+						$messageStack->add_session('cart',EC_IN_USE_ONCE,'error');
+						$messageStack->add('cart',EC_IN_USE_ONCE,'error');
 					}
 					elseif ($inputcouponcode != 'RESET') {
 
