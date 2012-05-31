@@ -62,7 +62,7 @@ define('HEADER_TITLE_MENTIONS_LEGALES', 'Legal');
 
 // footer text in includes/footer.php
 define('FOOTER_TEXT_REQUESTS_SINCE', 'requests since');
-define('FOOTER_TEXT_COSTUMER_SERVICE','Costumer Service Parfumreduc');
+define('FOOTER_TEXT_COSTUMER_SERVICE','Costumer Service parfumseduction');
 define('FOOTER_TEXT_ALSO_FIND_TERMS','Also find '.STORE_NAME.' thanks to words:');
 define('FOOTER_TEXT_UNEXPENSIVE','Cheap perfumes');
 define('FOOTER_TEXT_LESS_EXPENSIVE','Cheaper perfumes');

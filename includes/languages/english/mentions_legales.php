@@ -36,7 +36,7 @@ As such, any reproduction rights, representation and public communication are re
 <br /> <br />
 No license or right other than to consult the web site is granted to anyone with regard to intellectual property rights. Reproduction of all or part of this website in any electronic medium whatsoever is strictly prohibited without the express permission of the Head of publication.
 <br /> <br />
-However the reproduction of materials on this website is licensed subject to a strictly personal and private use and respect the integrity of the documents reproduced (no modifications or alterations of any kind). Short quotations are permitted subject to state clearly and legibly the source as follows "This document is from the website'.$temp.'. The rights are reserved and strictly limited". Parfumreduc.com Internet address must appear in the reference. For any other use, an express agreement of '.$temp.' should be sought.
+However the reproduction of materials on this website is licensed subject to a strictly personal and private use and respect the integrity of the documents reproduced (no modifications or alterations of any kind). Short quotations are permitted subject to state clearly and legibly the source as follows "This document is from the website'.$temp.'. The rights are reserved and strictly limited". parfumseduction.com Internet address must appear in the reference. For any other use, an express agreement of '.$temp.' should be sought.
 <br /> <br />
 Unless otherwise stated, the copyright material of site '.$temp.' and all material created for this web site are the exclusive property of '.$temp.'. '.$temp.' reserves the right to modify or correct the contents of the website at any time and without notice.
 <br /> <br />

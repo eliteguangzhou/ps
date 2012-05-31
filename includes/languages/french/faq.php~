@@ -62,7 +62,7 @@ LA COMMANDE
 </h1><h3>
 1. Comment passer une commande� ?
 </h3>
-C\'est votre premier achat sur�Parfumreduc.com�?��
+C\'est votre premier achat sur�parfumseduction.com�?��
 
 Nous vous souhaitons la Bienvenue et nous vous invitons &agrave; suivre les &eacute;tapes suivantes :
 <br/>1.Choisissez les articles que vous souhaitez acheter
@@ -87,8 +87,8 @@ Toutes les donn&eacute;es bancaires saisies (num&eacute;ro de carte, cryptogramm
 de votre paiement par carte bancaire sont imm&eacute;diatement crypt&eacute;es gr�ce au protocole SSL et enregistr&eacute;es sur
 le serveur de paiement paypal.�
 
-Aucunes donn&eacute;es de paiement ne sont stock&eacute;es sur le site�Parfumreduc.com, &eacute;vitant toute possibilit&eacute; de fraude
-par piratage du site�Parfumreduc.com�.�
+Aucunes donn&eacute;es de paiement ne sont stock&eacute;es sur le site�parfumseduction.com, &eacute;vitant toute possibilit&eacute; de fraude
+par piratage du site�parfumseduction.com�.�
 <h3>
 3. Puis-je annuler ma commande� ?
 </h3>
@@ -237,7 +237,7 @@ pay&eacute;e, nous proc&eacute;dons imm&eacute;diatement au renvoi du colis.
 4. Comment puis-je me faire rembourser� ?
 </h3>
 Le remboursement du ou des produits sera effectu&eacute; dans un d&eacute;lai maximum de 60 &agrave; 90 jours &agrave; compter de la
-date de litige constat&eacute;.�Parfumreduc.com�se r&eacute;serve le droit de rembourser les transactions par tout moyen de
+date de litige constat&eacute;.�parfumseduction.com�se r&eacute;serve le droit de rembourser les transactions par tout moyen de
 remboursement de son choix.
 <h1>
 LES INFORMATIONS PERSONNELLES
@@ -250,7 +250,7 @@ les informations que vous nous communiquez. Nous vous assurons que toutes vos do
 uniquement pour le traitement de votre commande.
 <br/>
 Nous nous r&eacute;servons tout de m�me la possibilit&eacute; d\'utiliser &agrave; des fins commerciales les donn&eacute;es transmises par
-l\'utilisateur si celui-ci l\'accepte lors de l\'inscription : " Je souhaite m\'abonner &agrave; la newsletter�Parfumreduc.com�".
+l\'utilisateur si celui-ci l\'accepte lors de l\'inscription : " Je souhaite m\'abonner &agrave; la newsletter�parfumseduction.com�".
 Dans le cas contraire, l\'Utilisateur est cens&eacute; y renoncer.
 <br/>
 Enfin, il est pr&eacute;cis&eacute; que des cookies pourront �tre implant&eacute;s dans l\'ordinateur de l\'utilisateur lors de l\'utilisation

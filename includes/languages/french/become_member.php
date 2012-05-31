@@ -14,7 +14,7 @@ define('NAVBAR_TITLE', 'Devenir membre');
 
 define('HEADING_TITLE', 'Informations');
 
-define('NEWSLETTER_PR', '<span style="font-size:9px;">Je souhaite recevoir les offres Parfumreduc</span>');
+define('NEWSLETTER_PR', '<span style="font-size:9px;">Je souhaite recevoir les offres parfumseduction</span>');
 
 define('PROMO_DESC', 'Afin de bénéficier de l\'offre cadeau, veuillez entrer votre code promo "<b style="color:red;">PROMO2012</b>" après avoir entré votre adresse email dans le champ ci-dessous :');
 ?>
