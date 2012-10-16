@@ -18,7 +18,6 @@
 			
 			
 <!--------promo------->
-<?php error_log($language); ?>
 <?php if ($language == 'french') {?>
 
 <tr><td><a href="presentation.php">

@@ -101,10 +101,13 @@
         $check_product_query = tep_db_query("select products_status, products_price, buy_price from " . TABLE_PRODUCTS . " where products_id = '" . (int)$products_id . "'");
         $check_product = tep_db_fetch_array($check_product_query);
         $check_product['products_price'] = get_price($new_price ? $new_price : $check_product['products_price']);
-
+if (!isset($currencies->currencies[$currency]['value'])){
+  $currencies->currencies[$currency]['value'] = 1;
+}
         if (($check_product !== false) && ($check_product['products_status'] == '1')) {
-          if ($qty > MAX_SAME_PRODUCTS)
+          if ($qty > MAX_SAME_PRODUCTS){
             return CART_MAX_AMOUNT_BY_PRODUCT_REACHED;
+          }
           elseif ( $this->in_cart($products_id_string) && $this->show_total() + $check_product['products_price'] * ((int)$qty - $this->contents[$products_id_string]['qty']) <= MAX_CART_AMOUNT / $currencies->currencies[$currency]['value']
             || !$this->in_cart($products_id_string) && $this->show_total() + $check_product['products_price'] * $qty <= MAX_CART_AMOUNT / $currencies->currencies[$currency]['value']) {
               if ($notify == true) {

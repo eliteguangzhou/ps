@@ -52,7 +52,6 @@ echo '<a id="picture_sw" href="'.tep_href_link(FILENAME_ADVANTAGES).'">'.tep_ima
 echo '</td></tr><tr><td height="9">'.tep_draw_separator('spacer.gif', '1', '1').'</td></tr></table>';
 /*}
 else echo tep_draw_separator('spacer.gif', '590', '1').'</td></tr></table>';*/
-error_log('-----------------'.$language_id);
 ?>
 <?php if ($language_id == 5 || FALSE)  { ?>
 <script type="text/javascript">
