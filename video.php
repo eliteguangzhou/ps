@@ -27,7 +27,7 @@ margin-right: auto;width:1000px">
 <?php if (!isset($_GET['email'])) { ?>
 <script type="text/javascript">
 $(document).ready(function () {
-  $.colorbox({href:"popupmail.html",width:220,height:150});
+  $.colorbox({href:"popupmail.html",width:500,height:300});
 });
 </script>
 <?php } ?>
