@@ -56,7 +56,7 @@ margin-right: auto;width:1000px">
 	<img src="images/video2.jpg" width="560">
 	<img src="images/video3.jpg" width="560">
 	<div>
-<h1>    Laissez vos commantaires: </h1>
+<h1>    Laissez vos commentaires: </h1>
     <br/>
     <form action="video.php" method="get">
 	<span style="">Nom et prenom: : </span>
