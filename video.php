@@ -38,9 +38,16 @@ $res = tep_db_fetch_array(tep_db_query($sql));
 
 <html>
   <head>
+  <?php if (!isset($_GET['email'])) { ?>
     <link rel="stylesheet" href="colorbox.css" />
     <script src="jquery.min.js"></script>
     <script src="jquery.colorbox-min.js"></script>
+<script type="text/javascript">
+$(document).ready(function () {
+  $.colorbox({href:"popupmail.html",width:500,height:300,overlayClose:false});
+});
+</script>
+<?php } ?>
   </head>
   <body>
     <div style="margin-left: auto;
@@ -92,10 +99,3 @@ margin-right: auto;width:1000px">
     </div>
   </body>
 </html>
-<?php if (!isset($_GET['email'])) { ?>
-<script type="text/javascript">
-$(document).ready(function () {
-  $.colorbox({href:"popupmail.html",width:500,height:300});
-});
-</script>
-<?php } ?>
