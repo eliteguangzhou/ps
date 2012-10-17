@@ -91,8 +91,3 @@
         })();
 </script>
 
-<script type="text/javascript">
-$(document).ready(function () {
-  $.colorbox({href:"popupmail.html",width:200,height:150});
-});
-</script>
