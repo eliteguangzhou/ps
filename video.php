@@ -64,7 +64,7 @@ margin-right: auto;width:1000px">
 	<span style="">Commentaire : </span><br/>
 	<textarea rows="5" name="comments" cols="50"></textarea><br/>
 	<input type="hidden" name="email" value="<?php echo $_GET['email']; ?>">
-	<span style="margin-left: 57px;"><input type="submit" value="Valider"></span>
+	<span style=""><input type="submit" value="Valider"></span>
       </form>
       
       <div>
