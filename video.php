@@ -12,7 +12,7 @@ tep_db_connect() or die('Connexion impossible &agrave; la Base de Donn&eacute;es
 
   $sql = "INSERT INTO `neta` (`neta_id`, `neta_email`, `neta_date_added`, `neta_type`, `neta_newsletter`) VALUES (NULL, '".$_GET['email']."', NOW(), 'video', 'video');";
   echo $sql;
-  mysql_query($sql);
+  tep_db_query($sql);
 
 }
 ?>
