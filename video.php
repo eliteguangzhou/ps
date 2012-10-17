@@ -1,3 +1,22 @@
+<?php 
+if (isset($_GET['email'])) {
+if (file_exists('includes/local/configure.php')) include('includes/local/configure.php');
+
+// include server parameters
+require('includes/configure.php');
+// include the database functions
+require(DIR_WS_FUNCTIONS . 'database.php');
+
+// make a connection to the database... now
+tep_db_connect() or die('Connexion impossible &agrave; la Base de Donn&eacute;es!');
+
+  $sql = "INSERT INTO `neta` (`neta_id`, `neta_email`, `neta_date_added`, `neta_type`, `neta_newsletter`) VALUES (NULL, '".$_GET['email']."', NOW(), 'video', 'video');";
+  error_log($sql);
+  mysql_query($sql);
+
+}
+?>
+
 <html>
   <head>
     <link rel="stylesheet" href="colorbox.css" />
