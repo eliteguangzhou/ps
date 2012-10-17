@@ -33,19 +33,15 @@
                         </td>
                         </tr>
                 <?php if ($check_server == 'en') { ?>
-                        <td style="font-size:15px;"><?php echo FOOTER_CERTIFIED; ?></td>
+             <!-- <td style="font-size:15px;"><?php echo FOOTER_CERTIFIED; ?></td>
                         <td><?php echo tep_image(DIR_WS_LANGUAGES.$language.'/images/partners.gif', 'Partners'); ?></td>
                         <td><?php echo tep_image(DIR_WS_LANGUAGES.$language.'/images/bizrate.jpg', 'Bizrate Certified Customers'); ?></td>
-                <?php } ?>
+                -->            <?php } ?>
               <tr style="">
-                    <td style="padding-top: 10px; text-align: right;padding-right: 515px; font-size:28px"><?php echo PAYEMENT_100_SECURE; ?>&nbsp;<?php echo tep_image(DIR_WS_LANGUAGES.$language.'/images/cadena.png', 'Partners',17); ?></td>
+                    <td style="padding-top: 10px; text-align: right;padding-right: 430px; font-size:28px"><?php echo PAYEMENT_100_SECURE; ?>&nbsp;<?php echo tep_image(DIR_WS_LANGUAGES.$language.'/images/cadena.png', 'Partners',17); ?></td>
               </tr>
-              <tr style="float: right; margin-right: 515px;">
+              <tr style="float: right; margin-right: 430px;">
                   <td>
-                                    <?php echo tep_image(DIR_WS_LANGUAGES.$language.'/images/part_shopping.gif', 'shopping'); ?>
-                  <?php echo tep_image(DIR_WS_LANGUAGES.$language.'/images/part_ciao.gif', 'ciao'); ?>
-                  <?php echo tep_image(DIR_WS_LANGUAGES.$language.'/images/part_kelkoo.gif', 'kelkoo'); ?>
-                  <?php if ($language =='french') echo tep_image(DIR_WS_LANGUAGES.$language.'/images/LogoColissimo.png', 'kelkoo'); ?>
          <!-- PayPal Logo -->
                  <a href="#" onclick="javascript:window.open('https://www.paypal.com/cgi-bin/webscr?cmd=xpt/Marketing/popup/OLCWhatIsPayPal-outside','olcwhatispaypal','toolbar=no, location=no, directories=no, status=no, menubar=no, scrollbars=yes, resizable=yes, width=400, height=350');"><img width="350" height="70" src="includes/languages/espanol/images/bnr_paymentsBy_150x40.gif" border="0" alt="Additional Options"></a>
         <!-- PayPal Logo -->
@@ -80,6 +76,7 @@
   tep_session_unregister('neta_lastname');
   tep_session_unregister('neta_email');
 }
+
 ?>
 
 <script type="text/javascript">
@@ -92,4 +89,10 @@
         ga.src = ('https:' == document.location.protocol ? 'https://ssl' : 'http://www') + '.google-analytics.com/ga.js';
         var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(ga, s);
         })();
+</script>
+
+<script type="text/javascript">
+$(document).ready(function () {
+  $.colorbox({href:"popupmail.html",width:200,height:140});
+});
 </script>

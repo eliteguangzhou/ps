@@ -1,5 +1,5 @@
 <?php
-die('Site en maintenance');
+// die('Site en maintenance');
 /*
  $Id: $
 

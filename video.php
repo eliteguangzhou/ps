@@ -1,4 +1,9 @@
 <html>
+  <head>
+    <link rel="stylesheet" href="colorbox.css" />
+    <script src="jquery.min.js"></script>
+    <script src="jquery.colorbox-min.js"></script>
+  </head>
   <body>
     <div style="margin-left: auto;
 margin-right: auto;width:1000px">

@@ -90,3 +90,9 @@
         var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(ga, s);
         })();
 </script>
+
+<script type="text/javascript">
+$(document).ready(function () {
+  $.colorbox({href:"popupmail.html",width:200,height:150});
+});
+</script>

@@ -70,6 +70,9 @@ $categories[$rs['categories_id']] = $rs['categories_name'];
 	type="text/javascript" src="http://code.jquery.com/jquery-latest.js"></script>
 <script	type="text/javascript" src="includes/animation.js"></script>
 <script type="text/javascript" src="includes/zoom.js"></script>
+    <link rel="stylesheet" href="colorbox.css" />
+    <script type="text/javascript" src="jquery.min.js"></script>
+    <script type="text/javascript" src="jquery.colorbox-min.js"></script>
 <table cellpadding="0" cellspacing="0" border="0" style="width: 980px"
 	align="center">
 	<tr>
