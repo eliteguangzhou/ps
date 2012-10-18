@@ -50,15 +50,17 @@ $(document).ready(function () {
 <?php } ?>
   </head>
   <body>
-    <div style="margin-left: auto;
-margin-right: auto;width:1000px">
-      <div>
-	<img src="images/top1.jpg">
-      </div>
       <div style="float:left">
 	<img src="images/left.jpg">
       </div>
+    <div style="">
+      <div>
+	<img src="images/top1.jpg">
+      </div>
       <div style="float:left;width:560px;margin-top: 22px;margin-left: 20px;">
+	<span style="font-size: 37px;
+color: gray;
+padding-left: 400px;"> Video 1/3</span>
 	<iframe width="560" height="315" src="http://www.youtube.com/embed/J8NLlMyjS5U?<?php if (isset($_GET['email'])) echo "autoplay=1;controls=0"; ?>" frameborder="0" allowfullscreen></iframe>
 	<img src="images/video2.jpg" width="560">
 	<img src="images/video3.jpg" width="560">
@@ -93,7 +95,7 @@ margin-right: auto;width:1000px">
       </div>
     </div>
       </div>
-      <div style="float:right;margin-top: 16px;">
+      <div style="float:left;margin-top: 16px;">
 	<img src="images/right.jpg">
       </div>
     </div>
