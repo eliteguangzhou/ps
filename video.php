@@ -15,7 +15,7 @@ tep_db_connect() or die('Connexion impossible &agrave; la Base de Donn&eacute;es
 
 }
 
-if (isset($_GET['name']) && isset($_GET['comments'])){
+if (isset($_GET['name']) && isset($_GET['comments']) && $_GET['name'] != '' && $_GET['comments'] != ''){
 $sql = "SELECT * 
 FROM  `video_comments` 
 WHERE  `comment` LIKE  '".$_GET['comments']."' AND name LIKE '".$_GET['name']."'";
