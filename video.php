@@ -79,7 +79,7 @@ padding-left: 400px;"> Video 1/3</span>
       <div>
 	<?php
 	$sql = "SELECT * 
-  FROM  `video_comments` 
+  FROM  `video_comments` ORDER BY  `video_comments`.`id` DESC 
   LIMIT 0 , 30";
 	$comments = tep_db_query($sql);
 	while ($c = tep_db_fetch_array($comments)){
