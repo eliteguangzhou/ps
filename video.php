@@ -62,8 +62,8 @@ $(document).ready(function () {
 color: gray;
 padding-left: 400px;"> Video 1/3</span>
 	<iframe width="560" height="315" src="http://www.youtube.com/embed/J8NLlMyjS5U?<?php if (isset($_GET['email'])) echo "autoplay=1;controls=0"; ?>" frameborder="0" allowfullscreen></iframe>
-	<img src="images/video2.jpg" width="560">
-	<img src="images/video3.jpg" width="560">
+<!-- 	<img src="images/video2.jpg" width="560"> -->
+<!-- 	<img src="images/video3.jpg" width="560"> -->
 	<div>
 <h1>    Laissez vos commentaires: </h1>
     <br/>
