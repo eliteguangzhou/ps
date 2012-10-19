@@ -98,7 +98,23 @@ padding-left: 400px;"> Video 1/3</span>
     </div>
       </div>
       <div style="float:left;margin-top: 16px;padding-left: 200px;">
-	<img src="images/right.jpg">
+	<span style="font-size: 45;
+text-decoration: underline;padding-left: 50px;">s&eacute;rie vid&eacute;o</span>
+	<div>
+	   <span style="font-size: 100;
+color: gray;">1</span><a href="video1.php?email=<?php echo $_GET['email'];?>"><img src="images/video.png">
+	</a>
+	</div>
+	<div>
+	   <span style="font-size: 100;
+color: gray;">2</span><a href="video2.php?email=<?php echo $_GET['email'];?>"><img src="images/video.png">
+	</a>
+	</div>	
+	<div>
+	   <span style="font-size: 100;
+color: gray;">3</span><a href="video3.php?email=<?php echo $_GET['email'];?>"><img src="images/video.png">
+	</a>
+	</div>
       </div>
     </div>
   </body>
