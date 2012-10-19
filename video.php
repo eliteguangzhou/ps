@@ -49,11 +49,11 @@ $(document).ready(function () {
 </script>
 <?php } ?>
   </head>
-  <body>
+  <body style="width: 2000;">
       <div style="float:left">
 	<img src="images/left.jpg">
       </div>
-    <div style="">
+    <div style="float:left">
       <div>
 	<img src="images/top1.jpg">
       </div>
