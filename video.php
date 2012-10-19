@@ -96,7 +96,7 @@ padding-left: 400px;"> Video 1/3</span>
       </div>
     </div>
       </div>
-      <div style="float:left;margin-top: 16px;padding-left: 100px;">
+      <div style="float:left;margin-top: 16px;padding-left: 200px;">
 	<img src="images/right.jpg">
       </div>
     </div>
