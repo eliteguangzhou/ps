@@ -63,7 +63,7 @@ $(document).ready(function () {
 	<span style="font-size: 37px;
 color: gray;
 padding-left: 400px;"> Video 3/3</span>
-	<iframe width="640" height="390" src="http://www.youtube.com/embed/KA7a4xsOj6s?<?php if (isset($_GET['email'])) echo "autoplay=1;controls=0"; ?>" frameborder="0" allowfullscreen></iframe>
+<!-- 	<iframe width="640" height="390" src="http://www.youtube.com/embed/KA7a4xsOj6s?<?php if (isset($_GET['email'])) echo "autoplay=1;controls=0"; ?>" frameborder="0" allowfullscreen></iframe> -->
 <!-- 	<img src="images/video2.jpg" width="560"> -->
 <!-- 	<img src="images/video3.jpg" width="560"> -->
 	<div>
