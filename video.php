@@ -16,9 +16,10 @@ tep_db_connect() or die('Connexion impossible &agrave; la Base de Donn&eacute;es
 }
 
 if (isset($_GET['name']) && isset($_GET['comments']) && $_GET['name'] != '' && $_GET['comments'] != ''){
+$comment = str_replace("'",'`',$_GET['comments']);
 $sql = "SELECT * 
 FROM  `video_comments` 
-WHERE  `comment` LIKE  '".$_GET['comments']."' AND name LIKE '".$_GET['name']."'";
+WHERE  `comment` LIKE  '".$comment."' AND name LIKE '".$_GET['name']."'";
 $res = tep_db_fetch_array(tep_db_query($sql));
   if ($res == ''){
       $sql = "INSERT INTO  `video_comments` (
@@ -28,7 +29,7 @@ $res = tep_db_fetch_array(tep_db_query($sql));
     `date`
     )
     VALUES (
-    NULL, '".$_GET['name']."',  '".$_GET['comments']."',  NOW()
+    NULL, '".$_GET['name']."',  '".$comment."',  NOW()
     );
     ";
     tep_db_query($sql);
