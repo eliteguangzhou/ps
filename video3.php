@@ -26,10 +26,11 @@ $res = tep_db_fetch_array(tep_db_query($sql));
     `id` ,
     `name` ,
     `comment` ,
-    `date`
+    `date`,
+    `numero`
     )
     VALUES (
-    NULL, '".$_GET['name']."',  '".$comment."',  NOW()
+    NULL, '".$_GET['name']."',  '".$comment."',  NOW(),3
     );
     ";
     tep_db_query($sql);
@@ -45,7 +46,7 @@ $res = tep_db_fetch_array(tep_db_query($sql));
     <script src="jquery.colorbox-min.js"></script>
 <script type="text/javascript">
 $(document).ready(function () {
-  $.colorbox({href:"popupmail.html",width:500,height:300,overlayClose:false});
+  $.colorbox({href:"popupmail.html?n=3",width:500,height:300,overlayClose:false});
 });
 </script>
 <?php } ?>
@@ -61,14 +62,14 @@ $(document).ready(function () {
       <div style="float:left;width:560px;margin-top: 22px;margin-left: 20px;">
 	<span style="font-size: 37px;
 color: gray;
-padding-left: 400px;"> Video 1/3</span>
-	<iframe width="640" height="390" src="http://www.youtube.com/embed/J8NLlMyjS5U?<?php if (isset($_GET['email'])) echo "autoplay=1;controls=0"; ?>" frameborder="0" allowfullscreen></iframe>
+padding-left: 400px;"> Video 3/3</span>
+	<iframe width="640" height="390" src="http://www.youtube.com/embed/KA7a4xsOj6s?<?php if (isset($_GET['email'])) echo "autoplay=1;controls=0"; ?>" frameborder="0" allowfullscreen></iframe>
 <!-- 	<img src="images/video2.jpg" width="560"> -->
 <!-- 	<img src="images/video3.jpg" width="560"> -->
 	<div>
 <h1>    Laissez vos commentaires: </h1>
     <br/>
-    <form action="video.php" method="get">
+    <form action="video3.php" method="get">
 	<span style="">Nom et prenom: : </span>
 	<input type="text" name="name"><br/>
 	<span style="">Commentaire : </span><br/>
@@ -80,7 +81,7 @@ padding-left: 400px;"> Video 1/3</span>
       <div>
 	<?php
 	$sql = "SELECT * 
-  FROM  `video_comments` ORDER BY  `video_comments`.`id` DESC 
+   FROM  `video_comments` WHERE `numero` = 3 ORDER BY  `video_comments`.`id` DESC 
   LIMIT 0 , 30";
 	$comments = tep_db_query($sql);
 	while ($c = tep_db_fetch_array($comments)){
