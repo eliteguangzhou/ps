@@ -107,7 +107,7 @@ color: gray;">1</span><a href="video1.php?email=<?php echo $_GET['email'];?>"><i
 	</div>
 	<div>
 	   <span style="font-size: 100;
-color: gray;">2</span><a href="video2.php?email=<?php echo $_GET['email'];?>"><img src="images/video.jpg">
+color: gray;">2</span><a href="video2.php?email=<?php echo $_GET['email'];?>"><img src="images/video.png">
 	</a>
 	</div>	
 	<div>
