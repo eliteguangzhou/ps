@@ -63,7 +63,7 @@ $(document).ready(function () {
 	<span style="font-size: 37px;
 color: gray;
 padding-left: 400px;"> Video 2/3</span>
-<!-- 	<iframe width="640" height="390" src="http://www.youtube.com/embed/Brb-gPMDlps?<?php if (isset($_GET['email'])) echo "autoplay=1;controls=0"; ?>" frameborder="0" allowfullscreen></iframe> -->
+	<iframe width="640" height="390" src="http://www.youtube.com/embed/Brb-gPMDlps?<?php if (isset($_GET['email'])) echo "autoplay=1;controls=0"; ?>" frameborder="0" allowfullscreen></iframe>
 <!-- 	<img src="images/video2.jpg" width="560"> -->
 <!-- 	<img src="images/video3.jpg" width="560"> -->
 	<div>
@@ -107,13 +107,13 @@ color: gray;">1</span><a href="video1.php?email=<?php echo $_GET['email'];?>"><i
 	</div>
 	<div>
 	   <span style="font-size: 100;
-color: gray;">2</span><a href="video2.php?email=<?php echo $_GET['email'];?>"><img src="images/videobt.jpg">
+color: gray;">2</span><a href="video2.php?email=<?php echo $_GET['email'];?>"><img src="images/video.jpg">
 	</a>
 	</div>	
 	<div>
 	   <span style="font-size: 100;
-color: gray;">3</span><a href="video3.php?email=<?php echo $_GET['email'];?>"><img src="images/videobt.jpg">
-	</a>
+color: gray;">3</span><!--<a href="video3.php?email=<?php echo $_GET['email'];?>">--><img src="images/videobt.jpg">
+	<!--</a>-->
       </div>
     </div>
   </body>
