@@ -1,6 +1,6 @@
 <?php
 // die('Site en maintenance');
-header('Location:video.php');   
+header('Location:video1.php');   
 /*
  $Id: $
 
